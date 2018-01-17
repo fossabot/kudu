@@ -58,6 +58,8 @@ between two commits which may have different dependencies.
 [source,bash]
 ----
 # Add <root of kudu tree>/thirdparty/installed/common/bin to your $PATH
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcloudera%2Fkudu.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcloudera%2Fkudu?ref=badge_shield)
+
 # before other parts of $PATH that may contain cmake, such as /usr/bin
 # For example: "export PATH=$HOME/git/kudu/thirdparty/installed/common/bin:$PATH"
 # if using bash.
@@ -427,3 +429,7 @@ on writing code, though it may affect your ability to build from within Eclipse.
 
 This distribution uses cryptographic software and may be subject to export controls.
 Please refer to docs/export_control.adoc for more information.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcloudera%2Fkudu.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcloudera%2Fkudu?ref=badge_large)
